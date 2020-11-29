@@ -53,13 +53,13 @@ Operation: GetArrBoardWithDetails
 ```
 To be able to access the endpoint, it is required to register for access to National Rail Enquiries OpenLDBWS by signing up at http://realtime.nationalrail.co.uk/OpenLDBWSRegistration/
 The access token received by email needs to be passed with every request as header. Replace '******' at nrePV.accessToken property in national.rail.system.api.dev.yaml file with the access token received.
-
+```
 Input Example:
   Query Parameters:
-    queryParameters:
-        sourceLocation: BSK
-        destinationLocation: WAT
-        timeWindowMins: 60
+    sourceLocation: BSK
+    destinationLocation: WAT
+    timeWindowMins: 60
+```
         
 Documentation for OpenLDWSVWS can be found at http://lite.realtime.nationalrail.co.uk/openldbws/
 
