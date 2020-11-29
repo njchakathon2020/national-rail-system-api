@@ -5,7 +5,7 @@
 This National Rail System API retrieves train details based on source, destination and time window as well as list of station codes from National Rail Enquiries SOAP API.
 
 Endpoints
-* Get All Stations
+*  **Get All Stations
 
 ```
 Endpoint: /service/station
@@ -35,7 +35,7 @@ Protocol: HTTP
 Method: GET 
 ```
 
-* Get Arrival Board Details
+* **Get Arrival Board Details
 
 ```
 Endpoint: /service/arrivals
