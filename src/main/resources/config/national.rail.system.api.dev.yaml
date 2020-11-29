@@ -13,7 +13,7 @@ mule:
   env: ""
   
 nre:
-  accessToken: "1e67fe67-49bd-4565-a908-09111659c272"
+  accessToken: "*************"
   wsdl: "https://lite.realtime.nationalrail.co.uk/OpenLDBSVWS/wsdl.aspx?ver=2017-10-01"
   service: "ldbsv"
   port: "LDBSVServiceSoap"
@@ -28,7 +28,7 @@ nre:
 
     
 nrePV:
-  accessToken: "51e7743a-2522-4b09-85b5-84a7dada242e"
+  accessToken: "**************"
   wsdl: "https://lite.realtime.nationalrail.co.uk/OpenLDBWS/wsdl.aspx?ver=2017-10-01"
   service: "ldb"
   port: "LDBServiceSoap12"
