@@ -72,6 +72,6 @@ Method: GET
 ```
 To test the project with web service consumer, uncomment the wsc:consume component and comment http:request component in national-rail-implementation.xml.
 
-Alternately, these endpoints are available at #### http://national-rail-system-api.us-e2.cloudhub.io/
+Alternately, these endpoints are available at ### http://national-rail-system-api.us-e2.cloudhub.io/
 
 
