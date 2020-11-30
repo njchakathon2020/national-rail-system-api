@@ -11,7 +11,7 @@ Endpoints
 Endpoint: /service/station
 Method: GET
 No Input
-Output: Array of Station objects. Station object has station code and station name.
+Response: Array of Station objects. Station object has station code and station name.
 ```
 
 This API sends request to Reference Data Endpoint in Live Departure Boards Staff Web Service of National Rail Enquiries.
@@ -41,7 +41,7 @@ Method: GET
 Endpoint: /service/arrivals
 Method: GET
 Input: source location, destination location and time window in mins as query parameters
-Output: Train Services between source and destination in given time window. It gives train services details, arrival, departure timealong with the stations it stops at.
+Response: Train Services between source and destination in given time window. It gives train services details, arrival, departure timealong with the stations it stops at.
 ```
 This API sends request to endpoint in Live Departure Boards Web Service of National Rail Enquiries.
 ```
